@@ -40,7 +40,6 @@
     text-align: center;
     align-self: center;
     margin: 5px;
-    /* width: 220px; */
 }
 
 .edit-modal input {
@@ -48,6 +47,14 @@
     width: 220px;
 }
 
+.edit-modal select {
+    margin: 5px;
+    margin-left: 95px;
+    width: 220px;
+    display: block;
+}
+
 .edit-modal button {
+    margin-top: 15px;
     margin-right: 15px;
 }

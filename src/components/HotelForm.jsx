@@ -37,7 +37,7 @@ const HotelForm = ({ isEditModalOpen,  closeEditModal, onConfirm, title, hotel})
                 <input id="input-state" placeholder="Estado" required value={state} onChange={(event) => setState(event.target.value)}></input>
                 <input id="input-price" placeholder="Preço da diária" required min={1} type="number" value={price} onChange={(event) => setPrice(event.target.value)}></input>
                 <input id="input-rating" placeholder="Avaliações (1 a 5)" required min={1} max={5} type="number" value={rating} onChange={(event) => setRating(event.target.value)}></input><br />
-                <select onChange={(event) => onSelectSort(event.target.value)}>
+                <select onChange={(event) => setImgPath(event.target.value)}>
                     <option value="./src/assets/copacabanapalace.jpg">Imagem 1</option>
                     <option value="./src/assets/fasanobh.jpg">Imagem 2</option>
                     <option value="./src/assets/rosewood.jpg">Imagem 3</option>
