@@ -11,11 +11,11 @@ import HotelDetails from './components/HotelDetails';
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/fundamentos_react_at",
     element: < Home />,
   },
   {
-    path: "/details/:hotelId",
+    path: "/fundamentos_react_at/details/:hotelId",
     element: < HotelDetails />,
   },
 ]);

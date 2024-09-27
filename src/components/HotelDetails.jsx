@@ -68,7 +68,7 @@ const HotelDetails = () => {
             </div>
         </div>
         <div className="hotel-actions">
-            <button onClick={() => navigate("/")}>Voltar</button>
+            <button onClick={() => navigate("/fundamentos_react_at")}>Voltar</button>
             <button onClick={openEditModal}>Editar</button>
             <button onClick={() => deleteHotel(hotel.id)}>Remover</button>
         </div>
